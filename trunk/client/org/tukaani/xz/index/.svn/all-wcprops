@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/64/trunk/client/org/tukaani/xz/index
+END
+IndexBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/64/trunk/client/org/tukaani/xz/index/IndexBase.java
+END
+BlockInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/64/trunk/client/org/tukaani/xz/index/BlockInfo.java
+END
+IndexRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/64/trunk/client/org/tukaani/xz/index/IndexRecord.java
+END
+IndexEncoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/64/trunk/client/org/tukaani/xz/index/IndexEncoder.java
+END
+IndexDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/64/trunk/client/org/tukaani/xz/index/IndexDecoder.java
+END

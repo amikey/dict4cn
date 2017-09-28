@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/64/trunk/client_java/cn/kk/dict2go
+END
+Main.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/64/trunk/client_java/cn/kk/dict2go/Main.java
+END
+Configuration.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/64/trunk/client_java/cn/kk/dict2go/Configuration.java
+END
+LanguagesChooser.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/64/trunk/client_java/cn/kk/dict2go/LanguagesChooser.java
+END
+IconListRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/64/trunk/client_java/cn/kk/dict2go/IconListRenderer.java
+END
+SortedListModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/64/trunk/client_java/cn/kk/dict2go/SortedListModel.java
+END

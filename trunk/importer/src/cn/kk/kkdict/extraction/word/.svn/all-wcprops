@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/64/trunk/importer/src/cn/kk/kkdict/extraction/word
+END
+QQPinyinQpydExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/49/trunk/importer/src/cn/kk/kkdict/extraction/word/QQPinyinQpydExtractor.java
+END
+SogouScelPinyinExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/49/trunk/importer/src/cn/kk/kkdict/extraction/word/SogouScelPinyinExtractor.java
+END
+BaiduBcdExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/64/trunk/importer/src/cn/kk/kkdict/extraction/word/BaiduBcdExtractor.java
+END
+SogouSgimCoreBinExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/49/trunk/importer/src/cn/kk/kkdict/extraction/word/SogouSgimCoreBinExtractor.java
+END

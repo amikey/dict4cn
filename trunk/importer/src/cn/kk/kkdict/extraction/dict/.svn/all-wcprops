@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/64/trunk/importer/src/cn/kk/kkdict/extraction/dict
+END
+EdictJaEnExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/extraction/dict/EdictJaEnExtractor.java
+END
+WiktionaryPagesMetaCurrentChineseExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/53/trunk/importer/src/cn/kk/kkdict/extraction/dict/WiktionaryPagesMetaCurrentChineseExtractor.java
+END
+WiktionaryPagesMetaCurrentExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/64/trunk/importer/src/cn/kk/kkdict/extraction/dict/WiktionaryPagesMetaCurrentExtractor.java
+END
+EdictZhEnExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/extraction/dict/EdictZhEnExtractor.java
+END
+WikiPagesMetaCurrentExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/extraction/dict/WikiPagesMetaCurrentExtractor.java
+END
+WikiExtractorBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/49/trunk/importer/src/cn/kk/kkdict/extraction/dict/WikiExtractorBase.java
+END
+FrHelperDicBinExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/49/trunk/importer/src/cn/kk/kkdict/extraction/dict/FrHelperDicBinExtractor.java
+END
+EsHelperDicBinExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/49/trunk/importer/src/cn/kk/kkdict/extraction/dict/EsHelperDicBinExtractor.java
+END
+DeHelperDicBinExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/49/trunk/importer/src/cn/kk/kkdict/extraction/dict/DeHelperDicBinExtractor.java
+END
+EdictZhEsExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/extraction/dict/EdictZhEsExtractor.java
+END
+EdictZhFrExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/extraction/dict/EdictZhFrExtractor.java
+END
+LingoesLd2Extractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/49/trunk/importer/src/cn/kk/kkdict/extraction/dict/LingoesLd2Extractor.java
+END
+EdictZhDeExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/49/trunk/importer/src/cn/kk/kkdict/extraction/dict/EdictZhDeExtractor.java
+END

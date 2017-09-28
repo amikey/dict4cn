@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/47/trunk/importer/src/org/apache/tools/tar
+END
+TarBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/47/trunk/importer/src/org/apache/tools/tar/TarBuffer.java
+END
+TarInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/47/trunk/importer/src/org/apache/tools/tar/TarInputStream.java
+END
+TarConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/47/trunk/importer/src/org/apache/tools/tar/TarConstants.java
+END
+TarUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/47/trunk/importer/src/org/apache/tools/tar/TarUtils.java
+END
+TarEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/47/trunk/importer/src/org/apache/tools/tar/TarEntry.java
+END

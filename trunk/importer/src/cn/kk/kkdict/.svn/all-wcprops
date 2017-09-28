@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/64/trunk/importer/src/cn/kk/kkdict
+END
+ProduceDictWikt.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/ProduceDictWikt.java
+END
+Configuration.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/48/trunk/importer/src/cn/kk/kkdict/Configuration.java
+END
+ProduceDictWiki.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/48/trunk/importer/src/cn/kk/kkdict/ProduceDictWiki.java
+END
+ProduceAll.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/ProduceAll.java
+END
+ProduceTermWiki.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/ProduceTermWiki.java
+END
+ProduceGenerated.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/ProduceGenerated.java
+END
+ProduceWords.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/ProduceWords.java
+END

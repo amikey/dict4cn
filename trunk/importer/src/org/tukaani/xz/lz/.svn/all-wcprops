@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/48/trunk/importer/src/org/tukaani/xz/lz
+END
+BT4.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/48/trunk/importer/src/org/tukaani/xz/lz/BT4.java
+END
+LZDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/48/trunk/importer/src/org/tukaani/xz/lz/LZDecoder.java
+END
+Hash234.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/48/trunk/importer/src/org/tukaani/xz/lz/Hash234.java
+END
+CRC32Hash.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/48/trunk/importer/src/org/tukaani/xz/lz/CRC32Hash.java
+END
+Matches.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/48/trunk/importer/src/org/tukaani/xz/lz/Matches.java
+END
+LZEncoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/48/trunk/importer/src/org/tukaani/xz/lz/LZEncoder.java
+END

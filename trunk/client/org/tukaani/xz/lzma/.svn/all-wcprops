@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/64/trunk/client/org/tukaani/xz/lzma
+END
+LZMAEncoderNormal.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/64/trunk/client/org/tukaani/xz/lzma/LZMAEncoderNormal.java
+END
+State.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/64/trunk/client/org/tukaani/xz/lzma/State.java
+END
+LZMACoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/64/trunk/client/org/tukaani/xz/lzma/LZMACoder.java
+END
+LZMAEncoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/64/trunk/client/org/tukaani/xz/lzma/LZMAEncoder.java
+END
+LZMADecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/64/trunk/client/org/tukaani/xz/lzma/LZMADecoder.java
+END
+Optimum.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/64/trunk/client/org/tukaani/xz/lzma/Optimum.java
+END

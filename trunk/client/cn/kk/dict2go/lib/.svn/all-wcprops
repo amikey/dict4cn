@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/64/trunk/client/cn/kk/dict2go/lib
+END
+IndexResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/64/trunk/client/cn/kk/dict2go/lib/IndexResult.java
+END
+SearchType.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/64/trunk/client/cn/kk/dict2go/lib/SearchType.java
+END
+SearchTaskCallable.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/64/trunk/client/cn/kk/dict2go/lib/SearchTaskCallable.java
+END
+SearchResultListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/64/trunk/client/cn/kk/dict2go/lib/SearchResultListener.java
+END
+CacheKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/64/trunk/client/cn/kk/dict2go/lib/CacheKey.java
+END
+ClientHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/64/trunk/client/cn/kk/dict2go/lib/ClientHelper.java
+END
+IndexKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/64/trunk/client/cn/kk/dict2go/lib/IndexKey.java
+END
+Language.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/64/trunk/client/cn/kk/dict2go/lib/Language.java
+END
+Context.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/64/trunk/client/cn/kk/dict2go/lib/Context.java
+END
+TranslationComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/64/trunk/client/cn/kk/dict2go/lib/TranslationComparator.java
+END
+IntList.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/64/trunk/client/cn/kk/dict2go/lib/IntList.java
+END
+SearchTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/64/trunk/client/cn/kk/dict2go/lib/SearchTask.java
+END
+PhoneticTranscriptionHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/64/trunk/client/cn/kk/dict2go/lib/PhoneticTranscriptionHelper.java
+END
+CompressHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/64/trunk/client/cn/kk/dict2go/lib/CompressHelper.java
+END
+SearchEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/64/trunk/client/cn/kk/dict2go/lib/SearchEngine.java
+END
+SuperIndexGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/64/trunk/client/cn/kk/dict2go/lib/SuperIndexGenerator.java
+END
+Translation.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/64/trunk/client/cn/kk/dict2go/lib/Translation.java
+END
+Dictionary.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/64/trunk/client/cn/kk/dict2go/lib/Dictionary.java
+END

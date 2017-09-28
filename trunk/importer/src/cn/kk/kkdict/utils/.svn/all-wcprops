@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/64/trunk/importer/src/cn/kk/kkdict/utils
+END
+ArrayHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/62/trunk/importer/src/cn/kk/kkdict/utils/ArrayHelper.java
+END
+TranslationHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/56/trunk/importer/src/cn/kk/kkdict/utils/TranslationHelper.java
+END
+ChineseHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/utils/ChineseHelper.java
+END
+Helper.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/62/trunk/importer/src/cn/kk/kkdict/utils/Helper.java
+END
+DictHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/53/trunk/importer/src/cn/kk/kkdict/utils/DictHelper.java
+END
+LanguageClassWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/64/trunk/importer/src/cn/kk/kkdict/utils/LanguageClassWriter.java
+END
+PhoneticTranscriptionHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/64/trunk/importer/src/cn/kk/kkdict/utils/PhoneticTranscriptionHelper.java
+END
+CompressHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/56/trunk/importer/src/cn/kk/kkdict/utils/CompressHelper.java
+END

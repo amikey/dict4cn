@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/64/trunk/importer/src
+END
+LingoesLd2Reader.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/63/trunk/importer/src/LingoesLd2Reader.java
+END
+GoogleTranslator.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/56/trunk/importer/src/GoogleTranslator.java
+END
+SogouScelReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/47/trunk/importer/src/SogouScelReader.java
+END
+DeflateReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/47/trunk/importer/src/DeflateReader.java
+END
+XmlContentExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/47/trunk/importer/src/XmlContentExtractor.java
+END
+QQPinyinQpydReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/47/trunk/importer/src/QQPinyinQpydReader.java
+END
+LongLinesRemover.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/63/trunk/importer/src/LongLinesRemover.java
+END
+JavaLanguagesLister.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/48/trunk/importer/src/JavaLanguagesLister.java
+END
+StardictReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/56/trunk/importer/src/StardictReader.java
+END
+SogouSgimCoreBinReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/63/trunk/importer/src/SogouSgimCoreBinReader.java
+END
+DatabaseTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/47/trunk/importer/src/DatabaseTest.java
+END
+TextFileSplitter.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/56/trunk/importer/src/TextFileSplitter.java
+END
+HelperDicBinReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/48/trunk/importer/src/HelperDicBinReader.java
+END
+LongestLineFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/47/trunk/importer/src/LongestLineFinder.java
+END
+LargeFileReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/63/trunk/importer/src/LargeFileReader.java
+END
+ChangeIP.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/56/trunk/importer/src/ChangeIP.java
+END
+StardictWordsReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/56/trunk/importer/src/StardictWordsReader.java
+END
+BaiduBcdReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/47/trunk/importer/src/BaiduBcdReader.java
+END
+WikiPagesMetaCurrentReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/47/trunk/importer/src/WikiPagesMetaCurrentReader.java
+END
+Compresser.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/52/trunk/importer/src/Compresser.java
+END

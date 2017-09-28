@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/64/trunk/importer/src/cn/kk/kkdict/beans
+END
+ByteArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/beans/ByteArray.java
+END
+FormattedTreeMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/beans/FormattedTreeMap.java
+END
+IndexedByteArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/beans/IndexedByteArray.java
+END
+ListStat.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/beans/ListStat.java
+END
+WiktContentState.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/beans/WiktContentState.java
+END
+TranslationInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/49/trunk/importer/src/cn/kk/kkdict/beans/TranslationInfo.java
+END
+Stat.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/beans/Stat.java
+END
+DictRow.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/beans/DictRow.java
+END
+Word.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/beans/Word.java
+END
+FormattedArrayList.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/beans/FormattedArrayList.java
+END
+FormattedTreeSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/beans/FormattedTreeSet.java
+END
+IntList.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/58/trunk/importer/src/cn/kk/kkdict/beans/IntList.java
+END
+ParseInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/63/trunk/importer/src/cn/kk/kkdict/beans/ParseInfo.java
+END
+DictByteBufferRow.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/64/trunk/importer/src/cn/kk/kkdict/beans/DictByteBufferRow.java
+END
+IntArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/beans/IntArray.java
+END
+WikiParseStep.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/beans/WikiParseStep.java
+END
+ByteArrayPairs.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/beans/ByteArrayPairs.java
+END

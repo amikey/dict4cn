@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/64/trunk/importer/src/cn/kk/kkdict/extraction/crawl
+END
+BablaCrawler.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/49/trunk/importer/src/cn/kk/kkdict/extraction/crawl/BablaCrawler.java
+END
+GoogleTranslateCrawler.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/64/trunk/importer/src/cn/kk/kkdict/extraction/crawl/GoogleTranslateCrawler.java
+END
+TermWikiCrawler.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/49/trunk/importer/src/cn/kk/kkdict/extraction/crawl/TermWikiCrawler.java
+END
+WoerterbuchUebersetzungCrawler.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/51/trunk/importer/src/cn/kk/kkdict/extraction/crawl/WoerterbuchUebersetzungCrawler.java
+END

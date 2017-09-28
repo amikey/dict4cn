@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/64/trunk/client/org/tukaani/xz/common
+END
+DecoderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/64/trunk/client/org/tukaani/xz/common/DecoderUtil.java
+END
+StreamFlags.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/64/trunk/client/org/tukaani/xz/common/StreamFlags.java
+END
+EncoderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/64/trunk/client/org/tukaani/xz/common/EncoderUtil.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/64/trunk/client/org/tukaani/xz/common/Util.java
+END

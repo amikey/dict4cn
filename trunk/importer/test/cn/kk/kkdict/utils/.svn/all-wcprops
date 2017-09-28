@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/64/trunk/importer/test/cn/kk/kkdict/utils
+END
+PhoneticTranscriptionHelperTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/64/trunk/importer/test/cn/kk/kkdict/utils/PhoneticTranscriptionHelperTest.java
+END
+ChineseHelperTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/33/trunk/importer/test/cn/kk/kkdict/utils/ChineseHelperTest.java
+END
+ArrayHelperTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/33/trunk/importer/test/cn/kk/kkdict/utils/ArrayHelperTest.java
+END
+HelperTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/34/trunk/importer/test/cn/kk/kkdict/utils/HelperTest.java
+END
+DictHelperTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/23/trunk/importer/test/cn/kk/kkdict/utils/DictHelperTest.java
+END

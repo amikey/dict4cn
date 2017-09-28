@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/64/trunk/importer/src/cn/kk/kkdict/generators
+END
+TermWikiParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/49/trunk/importer/src/cn/kk/kkdict/generators/TermWikiParser.java
+END
+WikiFileTemplateNamesGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/generators/WikiFileTemplateNamesGenerator.java
+END
+ChineseConvertionGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/64/trunk/importer/src/cn/kk/kkdict/generators/ChineseConvertionGenerator.java
+END
+WiktionaryCategoryLanguageExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/54/trunk/importer/src/cn/kk/kkdict/generators/WiktionaryCategoryLanguageExtractor.java
+END
+BabLaParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/49/trunk/importer/src/cn/kk/kkdict/generators/BabLaParser.java
+END
+LanguageExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/54/trunk/importer/src/cn/kk/kkdict/generators/LanguageExtractor.java
+END
+WiktionaryDumpPagesMetaCurrentXmlDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/62/trunk/importer/src/cn/kk/kkdict/generators/WiktionaryDumpPagesMetaCurrentXmlDownloader.java
+END
+WikipediaDumpPagesMetaCurrentXmlDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/48/trunk/importer/src/cn/kk/kkdict/generators/WikipediaDumpPagesMetaCurrentXmlDownloader.java
+END

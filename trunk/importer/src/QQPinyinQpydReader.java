@@ -1,0 +1,145 @@
+/*  Copyright (c) 2010 Xiaoyun Zhu
+ * 
+ *  Permission is hereby granted, free of charge, to any person obtaining a copy  
+ *  of this software and associated documentation files (the "Software"), to deal  
+ *  in the Software without restriction, including without limitation the rights  
+ *  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell  
+ *  copies of the Software, and to permit persons to whom the Software is  
+ *  furnished to do so, subject to the following conditions:
+ *  
+ *  The above copyright notice and this permission notice shall be included in  
+ *  all copies or substantial portions of the Software.
+ *  
+ *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  
+ *  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,  
+ *  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE  
+ *  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER  
+ *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
+ *  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN  
+ *  THE SOFTWARE.  
+ */
+
+import java.io.ByteArrayOutputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.RandomAccessFile;
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
+import java.nio.channels.Channels;
+import java.nio.channels.FileChannel;
+import java.util.Arrays;
+import java.util.zip.InflaterOutputStream;
+
+/**
+ * QQ Pinyin IME QPYD File Reader
+ * 
+ * <pre>
+ * QPYD Format overview:
+ * 
+ * General Information:
+ * - Chinese characters are all encoded with UTF-16LE.
+ * - Pinyin are encoded in ascii (or UTF-8).
+ * - Numbers are using little endian byte order.
+ * 
+ * QPYD hex analysis:
+ * - 0x00 QPYD file identifier
+ * - 0x38 offset of compressed data (word-pinyin-dictionary)
+ * - 0x44 total words in qpyd
+ * - 0x60 start of header information
+ * 
+ * Compressed data analysis:
+ * - zip/standard (beginning with 0x789C) is used in (all analyzed) qpyd files
+ * - data is divided in two parts
+ * -- 1. offset and length information (16 bytes for each pinyin-word pair)
+ *       0x06 offset points to first pinyin
+ *       0x00 length of pinyin
+ *       0x01 length of word
+ * -- 2. actual data
+ *       Dictionary data has the form ((pinyin)(word))* with no separators.
+ *       Data can only be read using offset and length information.
+ * 
+ * </pre>
+ * 
+ */
+public class QQPinyinQpydReader {
+  public static void main(final String[] args) throws IOException {
+    // download from http://dict.py.qq.com/list.php
+    final String qqydFile = "D:\\test.qpyd";
+
+    // read qpyd into byte array
+    final ByteArrayOutputStream dataOut = new ByteArrayOutputStream();
+
+    try (RandomAccessFile file = new RandomAccessFile(qqydFile, "r"); final FileChannel fChannel = file.getChannel();) {
+      fChannel.transferTo(0, fChannel.size(), Channels.newChannel(dataOut));
+    }
+
+    // qpyd as bytes
+    final ByteBuffer dataRawBytes = ByteBuffer.wrap(dataOut.toByteArray());
+    dataRawBytes.order(ByteOrder.LITTLE_ENDIAN);
+
+    System.out.println("文件: " + qqydFile);
+
+    // read info of compressed data
+    final int startZippedDictAddr = dataRawBytes.getInt(0x38);
+    final int zippedDictLength = dataRawBytes.limit() - startZippedDictAddr;
+
+    // qpys as UTF-16LE string
+    final String dataString = new String(Arrays.copyOfRange(dataRawBytes.array(), 0x60, startZippedDictAddr), "UTF-16LE");
+
+    // print header
+    System.out.println("名称：" + QQPinyinQpydReader.substringBetween(dataString, "Name: ", "\r\n"));
+    System.out.println("类型：" + QQPinyinQpydReader.substringBetween(dataString, "Type: ", "\r\n"));
+    System.out.println("子类型：" + QQPinyinQpydReader.substringBetween(dataString, "FirstType: ", "\r\n"));
+    System.out.println("词库说明：" + QQPinyinQpydReader.substringBetween(dataString, "Intro: ", "\r\n"));
+    System.out.println("词库样例：" + QQPinyinQpydReader.substringBetween(dataString, "Example: ", "\r\n"));
+    System.out.println("词条数：" + dataRawBytes.getInt(0x44));
+
+    // read zipped qqyd dictionary into byte array
+    dataOut.reset();
+    try (InflaterOutputStream inflater = new InflaterOutputStream(dataOut);) {
+      Channels.newChannel(inflater).write(ByteBuffer.wrap(dataRawBytes.array(), startZippedDictAddr, zippedDictLength));
+    }
+
+    // uncompressed qqyd dictionary as bytes
+    final ByteBuffer dataUnzippedBytes = ByteBuffer.wrap(dataOut.toByteArray());
+    dataUnzippedBytes.order(ByteOrder.LITTLE_ENDIAN);
+
+    // for debugging: save unzipped data to *.unzipped file
+    try (FileOutputStream out = new FileOutputStream(qqydFile + ".unzipped");) {
+      Channels.newChannel(out).write(dataUnzippedBytes);
+      System.out.println("压缩数据：0x" + Integer.toHexString(startZippedDictAddr) + " (解压前：" + zippedDictLength + " B, 解压后：" + dataUnzippedBytes.limit() + " B)");
+    }
+
+    // stores the start address of actual dictionary data
+    int unzippedDictStartAddr = -1;
+    final byte[] byteArray = dataUnzippedBytes.array();
+    dataUnzippedBytes.position(0);
+    while ((unzippedDictStartAddr == -1) || (dataUnzippedBytes.position() < unzippedDictStartAddr)) {
+      // read word
+      final int pinyinLength = dataUnzippedBytes.get() & 0xff;
+      final int wordLength = dataUnzippedBytes.get() & 0xff;
+      dataUnzippedBytes.getInt(); // garbage
+      final int pinyinStartAddr = dataUnzippedBytes.getInt();
+      final int wordStartAddr = pinyinStartAddr + pinyinLength;
+
+      if (unzippedDictStartAddr == -1) {
+        unzippedDictStartAddr = pinyinStartAddr;
+        System.out.println("词库地址（解压后）：0x" + Integer.toHexString(unzippedDictStartAddr) + "\n");
+      }
+
+      final String pinyin = new String(Arrays.copyOfRange(byteArray, pinyinStartAddr, pinyinStartAddr + pinyinLength), "UTF-8");
+      final String word = new String(Arrays.copyOfRange(byteArray, wordStartAddr, wordStartAddr + wordLength), "UTF-16LE");
+      System.out.println(word + "\t" + pinyin);
+    }
+  }
+
+  public static final String substringBetween(final String text, final String start, final String end) {
+    final int nStart = text.indexOf(start);
+    final int nEnd = text.indexOf(end, nStart + 1);
+    if ((nStart != -1) && (nEnd != -1)) {
+      return text.substring(nStart + start.length(), nEnd);
+    } else {
+      return null;
+    }
+  }
+}

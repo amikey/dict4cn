@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/56/trunk/importer/src/cn/kk/kkdict/summarization
+END
+PinyinIndexGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/48/trunk/importer/src/cn/kk/kkdict/summarization/PinyinIndexGenerator.java
+END
+WikiDictImageLocationCorrector.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/49/trunk/importer/src/cn/kk/kkdict/summarization/WikiDictImageLocationCorrector.java
+END
+WikiDictRelatedCorrector.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/summarization/WikiDictRelatedCorrector.java
+END
+WikiDictsMerger.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/49/trunk/importer/src/cn/kk/kkdict/summarization/WikiDictsMerger.java
+END
+WikiDictGeoLocationCorrector.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/48/trunk/importer/src/cn/kk/kkdict/summarization/WikiDictGeoLocationCorrector.java
+END
+WikiDictCategoriesMerger.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/summarization/WikiDictCategoriesMerger.java
+END
+PinyinOccurrenceCounter.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/47/trunk/importer/src/cn/kk/kkdict/summarization/PinyinOccurrenceCounter.java
+END
+WordsMerger.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/56/trunk/importer/src/cn/kk/kkdict/summarization/WordsMerger.java
+END

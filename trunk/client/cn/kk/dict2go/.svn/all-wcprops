@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/64/trunk/client/cn/kk/dict2go
+END
+AppService.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/63/trunk/client/cn/kk/dict2go/AppService.java
+END
+Language.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/63/trunk/client/cn/kk/dict2go/Language.java
+END
+Context.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/63/trunk/client/cn/kk/dict2go/Context.java
+END
+Dictionary.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/63/trunk/client/cn/kk/dict2go/Dictionary.java
+END
+IndexResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/63/trunk/client/cn/kk/dict2go/IndexResult.java
+END
+Step.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/56/trunk/client/cn/kk/dict2go/Step.java
+END
+CacheKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/63/trunk/client/cn/kk/dict2go/CacheKey.java
+END
+Translation.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/63/trunk/client/cn/kk/dict2go/Translation.java
+END
+ClientHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/63/trunk/client/cn/kk/dict2go/ClientHelper.java
+END
+IndexKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/62/trunk/client/cn/kk/dict2go/IndexKey.java
+END
